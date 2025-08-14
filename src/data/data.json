@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "SY Ideation Works",
+    "paragraph": "Transforming ideas into reality, one project at a time with expertise and trust."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Syideation Works is a Singapore-based project management service with over 40 years of experience in handling diverse engineering and renovation projects. We specialize in office meeting room construction and equipment transportation, emphasizing shrewd risk management and efficient project delivery. Our portfolio showcases past projects and client reviews, reflecting our wealth of knowledge and expertise. The sleek and modern design of our visual direction embodies our commitment to excellence and innovation.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -159,21 +159,21 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
+  "ProjectExpertise": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Machine Transportation.",
+      "text": "Moving delicate and bulky quipment with precision and care"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Office renovation.",
+      "text": "From monitors, desks, to entire office setups, we handle it all with expertise."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Aircon piping",
+      "text": "Expert installation and maintenance of air conditioning systems for optimal performance."
     },
     {
       "icon": "fa fa-magic",
