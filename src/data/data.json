@@ -1,10 +1,13 @@
 {
   "Header": {
     "title": "SY Ideation Works",
-    "paragraph": "Transforming ideas into reality, one project at a time with expertise and trust."
+    "paragraph": [
+      "Yor trusted partner in M&E Project Management\n"
+
+    ]
   },
   "About": {
-    "paragraph": "Syideation Works is a Singapore-based project management service with over 40 years of experience in handling diverse engineering and renovation projects. We specialize in office meeting room construction and equipment transportation, emphasizing shrewd risk management and efficient project delivery. Our portfolio showcases past projects and client reviews, reflecting our wealth of knowledge and expertise. The sleek and modern design of our visual direction embodies our commitment to excellence and innovation.",
+    "paragraph": "SYIdeationWorks is a Singapore-based project management service with over 40 years of experience in handling diverse engineering and renovation projects. We specialize in office meeting room construction and equipment transportation, emphasizing shrewd risk management and efficient project delivery. Our portfolio showcases past projects and client reviews, reflecting our wealth of knowledge and expertise. The sleek and modern design of our visual direction embodies our commitment to excellence and innovation.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -67,35 +70,25 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/intro-architect.jpg",
+      "name": "Project Management for M&E Works",
+      "text": "Ensuring seamless execution of mechanical and electrical projects with a focus on quality and efficiency."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bullhorn",
+      "name": "Office Design and Renovation works.",
+      "text": "From monitors, desks, to entire office setups, we handle it all with expertise."
+    },    
+    {
+      "icon": "fa fa-group",
+      "name": "Residential Design and Renovation",
+      "text": "Transforming homes with innovative designs and quality craftsmanship."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
+      "icon": "fa fa-comments-o",
+      "name": "Machine Relocations.",
+      "text": "Moving delicate and bulky quipment with precision and care"
+    }    
   ],
   "Testimonials": [
     {
@@ -161,24 +154,24 @@
   },
   "ProjectExpertise": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Machine Transportation.",
-      "text": "Moving delicate and bulky quipment with precision and care"
+      "icon": "fa fa-bullhorn",
+      "title": "Project Mnagement for M&E Works",
+      "text": "Ensuring seamless execution of mechanical and electrical projects with a focus on quality and efficiency."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Office renovation.",
+      "title": "Office Design and Renovation works.",
       "text": "From monitors, desks, to entire office setups, we handle it all with expertise."
-    },
+    },    
     {
       "icon": "fa fa-group",
-      "title": "Aircon piping",
-      "text": "Expert installation and maintenance of air conditioning systems for optimal performance."
+      "title": "Residential Design and Renovation",
+      "text": "Transforming homes with innovative designs and quality craftsmanship."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-comments-o",
+      "title": "Machine Relocations.",
+      "text": "Moving delicate and bulky quipment with precision and care"
     }
   ]
 }

@@ -18,8 +18,17 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+            <img
+              src="./img/logo/Navbar-logo.png"
+              alt="SY Ideation Works Logo"
+              className="navbar-brand-img"
+              style={{ height: "200px", verticalAlign: "middle", marginTop: "-90px" ,  marginInline: "-80px" }} // Adjust height as needed
+            />
+          </a>
+          {/* <a className="navbar-brand page-scroll" href="#page-top">
+              <span className="sy-brand">SY</span> 
+              <span className="ideation-brand"> Ideation Works</span>
+          </a>{" "} */}
         </div>
 
         <div
