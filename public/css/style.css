@@ -72,25 +72,34 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+
   transition: all 0.8s;
 }
 #menu.navbar-default {
   background-color: #f1efef;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  padding-left: -300rem; /* adjust as needed */
+
 }
 #menu a.navbar-brand {
   font-family: "GroldSemiLightRegular", "Raleway";
   font-size: 24px;
   font-weight: 700;
   color: #730000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* logo on left, links on right */
+  padding: 0.5rem -3000rem;
   /* text-transform: uppercase; */
 }
 .navbar-brand-img {
-  height: 1px;
+  /* height: 1px;
   vertical-align: bottom;
-  display: inline-block;
+  display: inline-block; */
+  height: 100px;     /* relative size */
+  width: auto;      /* keep aspect ratio */
+  object-fit: contain;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", "Raleway";
@@ -642,8 +651,17 @@ label {
 }
 
 @media (max-width: 768px) {
-  #about img {
+  /* #about img {
     margin: 50px 0;
+  } */
+  .navbar-brand-img {
+    height: 40px; /* smaller on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand-img {
+    height: 30px; /* even smaller on phones */
   }
 }
 
