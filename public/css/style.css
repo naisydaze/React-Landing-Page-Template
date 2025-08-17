@@ -90,7 +90,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between; /* logo on left, links on right */
-  padding: 0.5rem -3000rem;
+  padding: 0.5rem -300rem;
   /* text-transform: uppercase; */
 }
 .navbar-brand-img {
@@ -230,7 +230,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-architect.jpg) center center no-repeat;
+  background: url(/img/intro-architect.jpg) center center no-repeat;
   background-color: #140101;
   -webkit-background-size: cover;
   -moz-background-size: cover;
