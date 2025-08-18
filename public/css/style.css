@@ -519,7 +519,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 0 0 60px;
+  padding: 0 0 0px;
   /* padding: 0px; */
   background: linear-gradient(to top, #730000 0%, #FF0102 50%, #CD0000 100%);
   color: rgba(255, 255, 255, 0.75);
@@ -547,11 +547,12 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 80px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   width: auto;
   padding-bottom: 20px;
   font-weight: 600;
+  font-size:30px;
 }
 #contact form {
   padding-top: 20px;
@@ -610,8 +611,11 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
+#contact .contact-item2{
+  margin: 20px -1000px;
+}
 #contact .contact-item {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
@@ -628,18 +632,20 @@ label {
   text-align: center;
 }
 .contact-item h3 {
-  margin: 20px 0;
-  margin-top: 0;
-  padding-top: 0; 
+  margin: 20px -60px;
+  size: 10px;
+  margin-top: 0px;
+  padding-top: 0px; 
 }
 .single-line-text {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 16px;
-  margin-left: -20px;
+  margin-bottom: 100px;
+  margin-left: -100px;
   white-space: nowrap;
+  color: #fff;
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
@@ -680,27 +686,27 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
-
-@media (max-width: 768px) {
+/* smaller on tablets */
+/* @media (max-width: 768px) {
   .navbar-brand-img {
-    height: 40px; /* smaller on tablets */
+    height: 40px; 
   }
-}
-
-@media (max-width: 480px) {
+} */
+/* even smaller on phones */
+/* @media (max-width: 480px) {
   .navbar-brand-img {
-    height: 30px; /* even smaller on phones */
+    height: 30px; 
   }
-}
+} */
 
-/* @font-face {
+@font-face {
   font-family: "GroldSemiLightRegular";
   src: url("../fonts/fonts/FONTSPRINGDEMO-GroldSemiLightRegular.woff2") format("woff2"),
        url("../fonts/fonts/FONTSPRINGDEMO-GroldSemiLightRegular.woff") format("woff"),
        url("../fonts/fonts/FONTSPRINGDEMO-GroldSemiLightRegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
+}
 @font-face {
   font-family: "Hakuna Sans";
   src: url("../fonts/fonts/Hakuna-Sans.woff2") format("woff2"),

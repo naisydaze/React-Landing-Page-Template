@@ -100,12 +100,13 @@ export const Contact = (props) => {
           </div>
           <div className="row justify-content-center">
             <div className="col-md-3 contact-info">
+              <div className="contact-item2">
+                <h3>Get in touch to learn more about us.</h3>
+              </div>
               <div className="contact-item">
-                {/* <h3>Get in touch to learn more about us.</h3> */}
-                <p style={{ textAlign: "center" }} className="single-line-text">Get in touch to learn more about us.</p>
                 <p>
                   <span>
-                    <i className="fa fa-map-marker"></i> Address
+                    <i className="fa fa-map-marker"></i> <strong>Address</strong>
                   </span>
                   {props.data ? props.data.address : "loading"}
                 </p>
@@ -113,7 +114,7 @@ export const Contact = (props) => {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-phone"></i> Phone
+                    <i className="fa fa-phone"></i> <strong>Phone</strong>
                   </span>{" "}
                   {props.data ? props.data.phone : "loading"}
                 </p>
@@ -121,7 +122,7 @@ export const Contact = (props) => {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    <i className="fa fa-envelope-o"></i> <strong>Email</strong>
                   </span>{" "}
                   {props.data ? props.data.email : "loading"}
                 </p>
