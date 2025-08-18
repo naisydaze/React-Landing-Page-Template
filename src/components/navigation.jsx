@@ -5,7 +5,7 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
-          <button
+          {/* <button
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
-          </button>
+          </button> */}
           {/* <a className="navbar-brand page-scroll" href="#page-top">
             <img
               src="./img/logo/Navbar-logo.png"
@@ -32,7 +32,7 @@ export const Navigation = (props) => {
                 src="./img/logo/Navbar-logo.png"
                 alt="SY Ideation Works Logo"
                 className="navbar-brand-img"
-                style={{ height: "250px", width: "auto" }} // scales better than px
+                // style={{ height: "250px", width: "auto" }} // scales better than px
               />
             </a>
           </nav>

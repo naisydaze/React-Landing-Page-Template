@@ -71,15 +71,24 @@ hr {
   border: 0;
 }
 /* Navigation */
-#menu {
+#menu{
 
   transition: all 0.8s;
+}
+#menu .container{
+  display: flex;
+  justify-content: left; /* centers all children horizontally */
+  align-items: center;     /* centers children vertically */
+  position: relative;    
 }
 #menu.navbar-default {
   background-color: #f1efef;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  padding-left: -300rem; /* adjust as needed */
+  height: 70px;  /* Adjust as needed */
+  line-height: 70px;
+
+  /* padding-left: -300rem;  */
 
 }
 #menu a.navbar-brand {
@@ -90,16 +99,16 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between; /* logo on left, links on right */
-  padding: 0.5rem -300rem;
+  /* padding: 0.5rem -300rem; */
+  padding: 0;
+  margin: 0;
   /* text-transform: uppercase; */
 }
 .navbar-brand-img {
-  /* height: 1px;
-  vertical-align: bottom;
-  display: inline-block; */
-  height: 100px;     /* relative size */
-  width: auto;      /* keep aspect ratio */
-  object-fit: contain;
+  display: block;
+  max-height: 200px;    /* reasonable size for nav bar */
+  width: auto;         /* maintain aspect ratio */
+  /* object-fit: contain; */
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", "Raleway";
@@ -510,7 +519,8 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 0 0 60px;
+  /* padding: 0px; */
   background: linear-gradient(to top, #730000 0%, #FF0102 50%, #CD0000 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -613,11 +623,23 @@ label {
 }
 .contact-info {
   margin: 0 auto;
+  padding-top: 0;
   float: none;
   text-align: center;
 }
 .contact-item h3 {
   margin: 20px 0;
+  margin-top: 0;
+  padding-top: 0; 
+}
+.single-line-text {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+  margin-left: -20px;
+  white-space: nowrap;
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
@@ -660,9 +682,6 @@ label {
 }
 
 @media (max-width: 768px) {
-  /* #about img {
-    margin: 50px 0;
-  } */
   .navbar-brand-img {
     height: 40px; /* smaller on tablets */
   }

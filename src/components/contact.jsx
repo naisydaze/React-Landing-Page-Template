@@ -101,7 +101,8 @@ export const Contact = (props) => {
           <div className="row justify-content-center">
             <div className="col-md-3 contact-info">
               <div className="contact-item">
-                <h3>Get in touch to learn more about us.</h3>
+                {/* <h3>Get in touch to learn more about us.</h3> */}
+                <p style={{ textAlign: "center" }} className="single-line-text">Get in touch to learn more about us.</p>
                 <p>
                   <span>
                     <i className="fa fa-map-marker"></i> Address
