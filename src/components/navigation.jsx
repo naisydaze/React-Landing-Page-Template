@@ -32,7 +32,7 @@ export const Navigation = (props) => {
                 src="./img/logo/Navbar-logo.png"
                 alt="SY Ideation Works Logo"
                 className="navbar-brand-img"
-                style={{ height: "225px", width: "auto" }} // scales better than px
+                style={{ height: "250px", width: "auto" }} // scales better than px
               />
             </a>
           </nav>
