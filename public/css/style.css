@@ -539,8 +539,9 @@ header .intro-text {
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;
+  width: auto;
   padding-bottom: 20px;
-  font-weight: 400;
+  font-weight: 600;
 }
 #contact form {
   padding-top: 20px;
@@ -609,6 +610,14 @@ label {
 }
 #contact .contact-item i.fa {
   margin-right: 10px;
+}
+.contact-info {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+.contact-item h3 {
+  margin: 20px 0;
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
