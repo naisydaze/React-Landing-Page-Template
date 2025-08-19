@@ -691,10 +691,14 @@ label {
 #footer {
   background: #f6f6f6;
   padding: 30px 0;
+  text-align: center;
+
 }
 #footer p {
   color: #888;
   font-size: 16px;
+  text-align: center;
+
 }
 #footer a {
   color: #608dfd;
