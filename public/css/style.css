@@ -7,7 +7,7 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 h2,
 h3,
@@ -109,6 +109,12 @@ hr {
   max-height: 200px;    /* reasonable size for nav bar */
   width: auto;         /* maintain aspect ratio */
   /* object-fit: contain; */
+}
+.center-navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", "Raleway";
@@ -551,9 +557,9 @@ header .intro-text {
   margin-top: 30px;
   margin-bottom: 0px;
   width: auto;
-  padding-bottom: 20px;
-  font-weight: 600;
-  font-size:30px;
+  /* padding-bottom: 20px; */
+  font-weight: 400;
+  /* font-size:30px; */
 }
 #contact form {
   padding-top: 20px;
@@ -613,7 +619,7 @@ label {
   color: #777;
 }
 #contact .contact-item2{
-  margin: 20px 0px;
+  /* margin: 0px 0px; */
   display: block;
   text-align: center;
 }
@@ -677,8 +683,9 @@ label {
   background: #fff;
 }
 #contact .some-overflowing-container {
-  overflow-x: auto;
-  white-space: nowrap;
+  margin: auto;
+  /* overflow-x: auto; */
+  /* white-space: nowrap; */
 }
 /* Footer Section*/
 #footer {

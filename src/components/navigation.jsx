@@ -9,14 +9,16 @@ export const Navigation = (props) => {
         </div>
 
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid"> */}
+      <div className="center-navbar-logo">
           <a className="navbar-brand" href="#page-top">
             <img
               // src="./img/logo/Navbar-logo.png"
               src="./img/logo/PNG-3.png"
               alt="SY Ideation Works Logo"
               className="navbar-brand-img"
-              // style={{ height: "250px", width: "auto" }} // scales better than px
+              // align="center"
+              // style={{ height: "100px", width: "auto" }} // Adjust size as needed
             />
           </a>          
       </div>      
