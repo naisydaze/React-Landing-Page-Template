@@ -520,6 +520,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 0 0 0px;
+  max-width: 100vw;
   /* padding: 0px; */
   background: linear-gradient(to top, #730000 0%, #FF0102 50%, #CD0000 100%);
   color: rgba(255, 255, 255, 0.75);
@@ -612,10 +613,14 @@ label {
   color: #777;
 }
 #contact .contact-item2{
-  margin: 20px -800px;
+  margin: 20px 0px;
+  display: block;
+  text-align: center;
 }
 #contact .contact-item {
   margin: 20px 0px;
+  text-align: center;
+
 }
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);

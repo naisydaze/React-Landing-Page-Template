@@ -100,35 +100,35 @@ export const Contact = (props) => {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-md-3 contact-info">
-                <div className="contact-item2">
-                  <h3>Get in touch to learn more about us.</h3>
-                </div>
-                <div className="contact-item">
-                  <p>
-                    <span>
-                      <i className="fa fa-map-marker"></i> <strong>Address</strong>
-                    </span>
-                    {props.data ? props.data.address : "loading"}
-                  </p>
-                </div>
-                <div className="contact-item">
-                  <p>
-                    <span>
-                      <i className="fa fa-phone"></i> <strong>Phone</strong>
-                    </span>{" "}
-                    {props.data ? props.data.phone : "loading"}
-                  </p>
-                </div>
-                <div className="contact-item">
-                  <p>
-                    <span>
-                      <i className="fa fa-envelope-o"></i> <strong>Email</strong>
-                    </span>{" "}
-                    {props.data ? props.data.email : "loading"}
-                  </p>
-                </div>
+              <div className="contact-item2">
+                <h3>Get in touch to learn more about us.</h3>
+              </div>              
+              {/* <div className="col-md-3 contact-info"> */}
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-map-marker"></i> <strong>Address</strong>
+                  </span>
+                  {props.data ? props.data.address : "loading"}
+                </p>
               </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-phone"></i> <strong>Phone</strong>
+                  </span>{" "}
+                  {props.data ? props.data.phone : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    <i className="fa fa-envelope-o"></i> <strong>Email</strong>
+                  </span>{" "}
+                  {props.data ? props.data.email : "loading"}
+                </p>
+              </div>
+              {/* </div> */}
             </div>
             {/* <div className="col-md-12">
               <div className="row">
