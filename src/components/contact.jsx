@@ -109,7 +109,14 @@ export const Contact = (props) => {
                   <span>
                     <i className="fa fa-map-marker"></i> <strong>Address</strong>
                   </span>
-                  {props.data ? props.data.address : "loading"}
+                  {props.data && props.data.address
+                    ? props.data.address.split('\n').map((line, idx) => (
+                        <React.Fragment key={idx}>
+                          {line}
+                          {idx < props.data.address.split('\n').length - 1 && <br />}
+                        </React.Fragment>
+                      ))
+                    : "loading"}
                 </p>
               </div>
               <div className="contact-item">

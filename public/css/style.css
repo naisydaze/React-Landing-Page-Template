@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "GroldSemiLightRegular", Raleway;
+  font-family: "GroldSemiLightRegular", "GroldSemiLightRegular";
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -12,7 +12,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "GroldSemiLightRegular", "Raleway";
+  font-family: "GroldSemiLightRegular", "GroldSemiLightRegular";
 }
 h2 {
   text-transform: uppercase;
@@ -94,7 +94,7 @@ hr {
 
 }
 #menu a.navbar-brand {
-  font-family: "GroldSemiLightRegular", "Raleway";
+  font-family: "GroldSemiLightRegular", "GroldSemiLightRegular";
   font-size: 24px;
   font-weight: 700;
   color: #730000;
@@ -119,7 +119,7 @@ hr {
   width: 100%;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", "Raleway";
+  font-family: "Lato", "GroldSemiLightRegular";
   text-transform: uppercase;
   color: #403f3f;
   font-size: 15px;
@@ -194,7 +194,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "GroldSemiLightRegular", "Raleway";
+  font-family: "GroldSemiLightRegular", "GroldSemiLightRegular";
   text-transform: uppercase;
   color: #fff;
   background-color: #CD0000;
@@ -258,7 +258,7 @@ a:focus,
   background: rgba(21, 17, 17, 0.65);
 }
 .intro h1 {
-  font-family: "Hakuna-Sans", "Raleway";
+  font-family: "Hakuna-Sans", "GroldSemiLightRegular";
   color: #fff;
   font-size: 60px;
   font-weight: 700;
@@ -582,7 +582,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "GroldSemiLightRegular", "Raleway";
+  font-family: "GroldSemiLightRegular", "GroldSemiLightRegular";
   float: left;
 }
 #contact .form-control {
@@ -693,19 +693,27 @@ label {
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: auto;
-  margin: auto;
+  /* padding: auto; */
+  /* margin: auto; */
   text-align: center;
-
+  width: 100%;
+  padding: 16px 0;
+}
+#footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 16px; /* Add horizontal padding for small screens */
 }
 #footer p {
   color: #888;
-  font-size: 16px;
+  font-size: 10px;
   text-align: center;
-  white-space: normal;       /* Allow normal wrapping */
-  word-break: break-word;    /* Preferable: break at word boundaries */
-  overflow-wrap: break-word;  
-
+  white-space: normal;        
+  word-break: break-word;     
+  overflow-wrap: break-word; 
+  width: 100%; 
 }
 #footer a {
   color: #608dfd;
@@ -737,9 +745,9 @@ label {
 }
 @font-face {
   font-family: "Hakuna Sans";
-  src: url("../fonts/fonts/Hakuna-Sans.woff2") format("woff2"),
-       url("../fonts/fonts/Hakuna-Sans.woff") format("woff"),
-       url("../fonts/fonts/Hakuna-Sans.ttf") format("truetype");
+  src: url("/fonts/fonts/Hakuna-Sans.woff2") format("woff2"),
+       url("/fonts/fonts/Hakuna-Sans.woff") format("woff"),
+       url("/fonts/fonts/Hakuna-Sans.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
