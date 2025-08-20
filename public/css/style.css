@@ -704,7 +704,7 @@ label {
   /* justify-content: center;
   align-items: center; */
   text-align: center;
-  padding: 0 16px; /* Add horizontal padding for small screens */
+  /* padding: 0 16px;  */
 }
 #footer p {
   color: #888;
