@@ -1316,7 +1316,7 @@ mark,
   text-align: right;
 }
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 .text-justify {
   text-align: justify;
@@ -1582,6 +1582,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
