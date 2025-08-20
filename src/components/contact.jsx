@@ -163,7 +163,7 @@ export const Contact = (props) => {
           </div>
         </div>
         <div id="footer">
-          <div className="container text-center">
+          <div className="some-overflowing-container-footer">
             <p>
               &copy; 2025 SYIdeationWorks Pte. Ltd. All rights reserved.
             </p>
