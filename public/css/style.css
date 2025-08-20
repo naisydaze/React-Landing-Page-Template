@@ -696,32 +696,62 @@ label {
   /* white-space: nowrap; */
 }
 /* Footer Section*/
+
+/* 
+
+#contact .contact-item {
+  margin: 0px 0px;
+  text-align: center;
+
+}
+#contact .contact-item span {
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 1px;
+  display: block;
+}
+#contact .contact-item i.fa {
+  margin-right: 10px;
+}
+.contact-info {
+  margin: 0 auto;
+  padding-top: 0;
+  float: none;
+  text-align: center;
+}
+.contact-item h3 {
+  margin: 20px -60px;
+  size: 10px;
+  margin-top: 0px;
+  padding-top: 0px; 
+} */
+
+
 #footer {
   background: #f6f6f6;
   /* padding: auto; */
   /* margin: auto; */
   text-align: center;
-  width: 100%;
-  padding: 16px 0;
-  margin: 0 0 0 0;
+  /* width: 100%;
+  padding: 16px 0; */
+  margin: 0px 0 px;
 }
 #footer .container {
+  /* display: flex; */
+  justify-content: left; /* centers all children horizontally */
+  align-items: center;     /* centers children vertically */
+  position: relative;   
+    
   display: block;
   /* justify-content: center;
   align-items: center; */
   text-align: center;
+  margin: 0px 0 px;
   /* padding: 0 16px;  */
 }
 #footer p {
   color: #888;
   font-size: 10px;
-  text-align: center;
-  white-space: normal;        
-  word-break: break-word;     
-  overflow-wrap: break-word; 
-  max-width: 100%; 
-  width: auto;
-  margin: 0 auto;
+
 }
 #contact .some-overflowing-container-footer {
   margin: auto;
@@ -741,13 +771,13 @@ label {
 }
 
 /* smaller on tablets */
-/* @media (max-width: 768px) {
+ /* @media (max-width: 768px) {
   .navbar-brand-img {
     height: 40px; 
   }
-} */
+}  */
 /* even smaller on phones */
-/* @media (max-width: 480px) {
+ /* @media (max-width: 480px) {
   .navbar-brand-img {
     height: 30px; 
   }
