@@ -106,9 +106,9 @@ export const Contact = (props) => {
               {/* <div className="col-md-3 contact-info"> */}
               <div className="contact-item">
                 <p>
-                  <span>
-                    <i className="fa fa-map-marker"></i> <strong>Address</strong>
-                  </span>
+                <span>
+                  <i className="fa fa-map-marker"></i> <strong>Address</strong>
+                </span>                  
                   {props.data && props.data.address
                     ? props.data.address.split('\n').map((line, idx) => (
                         <React.Fragment key={idx}>
