@@ -248,21 +248,26 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(/img/intro-architect.jpg) center center no-repeat;
+  background-size: 400px auto; 
   /* background-color: #140101; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin: auto;
+  height: 60vh;
+
 }
 .intro .overlay {
   background: rgba(21, 17, 17, 0.65);
+  
 }
 .intro h1 {
   font-family: "Hakuna-Sans", "GroldSemiLightRegular";
   color: #fff;
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 900;
+  text-align: center;
+  
   /* text-transform: uppercase; */
   /* margin-top: 0;
   margin-bottom: 10px; */
@@ -287,11 +292,11 @@ a:focus,
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
-  margin-bottom: 60px;
+
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   text-align: center;
 }
 /* .header-box {
@@ -631,7 +636,7 @@ label {
   text-align: center;
 }
 #contact .contact-item {
-  margin: 0px 0px;
+  margin: 20px 0px;
   text-align: center;
 
 }
@@ -733,7 +738,7 @@ label {
   text-align: center;
   /* width: 100%;
   padding: 16px 0; */
-  margin: 0px 0 px;
+  margin: auto;
 }
 #footer .container {
   /* display: flex; */
@@ -751,6 +756,7 @@ label {
 #footer p {
   color: #888;
   font-size: 10px;
+  margin: auto;
 
 }
 #contact .some-overflowing-container-footer {
@@ -782,7 +788,12 @@ label {
     height: 30px; 
   }
 } */
-
+@media (max-width: 600px) {
+  .intro {
+    /* padding: 40px 10px; */
+    max-height: 30px;
+  } 
+}
 @font-face {
   font-family: "GroldSemiLightRegular";
   src: url("../fonts/fonts/FONTSPRINGDEMO-GroldSemiLightRegular.woff2") format("woff2"),
